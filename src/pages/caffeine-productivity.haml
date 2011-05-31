@@ -1,0 +1,244 @@
+- @title = 'Koffein, Produktivität, Schlaf und so'
+- @description = 'Ein Erfahrungsbericht'
+
+#startup-info{:style => 'color:#fff;'}
+  %strong Press left arrow to begin.
+  %br
+  Arrows to navigate,
+  %br
+  “P” for presentation mode,
+  %br
+  “N” to reveal content
+
+.slide.title.navigation-info
+  %header
+    %h1
+      Koffein,
+      %br
+      Produktivität,
+      %br
+      Schlaf und so
+  %section
+    %p{:align => :center}
+      = img "caffeine-productivity/face_180.png"
+      %br
+      @moeffju
+      %br
+      =#%small{:style => "font-size:40%;color:#888"} CC-BY-NC
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+
+.slide.with-steps
+  %header
+    %h1 Die Frage:
+  %section
+    %p
+      Macht Koffein mich wirklich...
+      %br
+      %br
+      %span.reveal ... wacher?
+      %br
+      %span.reveal ... produktiver?
+
+.slide.with-steps
+  %header
+    %h1 Meine Antwort:
+  %section
+    %p.reveal{:align => :center, :style => 'font-size:4em'}
+      Nein.
+
+.slide.with-steps
+  %header
+    %h1 Let's get science-y!
+  %section
+    %p.reveal
+      Wir messen unsere Produktivität
+    %p.reveal
+      mit Koffein
+    %p.reveal
+      ohne Koffein
+    %p.reveal
+      Anekdoten sind keine Daten
+    %p.reveal
+      (aber besser als gar nichts)
+
+.slide.with-steps
+  %header
+    %h1 Produktivität
+  %section
+    %figure.reveal
+      = img "caffeine-productivity/concentration-vs-coffee-chart.png"
+      %br
+      %small #{link "http://www.kk.org/quantifiedself/2009/10/the-false-god-of-coffee.php", "http://www.kk.org/quantifiedself/2009/10/the-false-god-of-coffee.php"}
+
+.slide
+  %header
+    %h1 Was macht Koffein?
+  %figure
+    = img "caffeine-productivity/caffeine.png", :height => 300
+    %p Koffein
+
+.slide.with-steps
+  %header
+    %h1 Exkurs
+  %figure.reveal
+    = img "caffeine-productivity/adenosine.png", :height => 300
+    %p Adenosin
+
+.slide
+  %header
+    %h1 Was macht Adenosin?
+  %section
+    %p Adenosin blockiert die Ausschüttung von allen belebenden und aktivierenden Neurotransmittern wie zum Beispiel Dopamin, Acetylcholin oder Noradrenalin. (#{link "Wikipedia: Adenosin", "http://de.wikipedia.org/wiki/Adenosin"})
+    %p Reguliert Schlaf-/Wach-Zentren des Gehirns.
+
+.slide
+  %header
+    %h1 Und Koffein?
+  %section
+    %p Koffein ist ein Adenosin-Antagonist.
+    %p
+      = img "caffeine-productivity/500x_the_oatmeal_adenosine.jpg", :width => "100%"
+      %small Source: The Oatmeal
+
+.slide.with-steps
+  %header
+    %h1 Das bedeutet...
+  %section
+    %p Koffein macht nicht wacher
+    %p
+      Aber unterdrückt das Müdigkeitsgefühl
+      %br
+      %small.reveal (Zum Beispiel auch in den Muskeln.)
+      %br
+      %small.reveal ... und das Adenosin lungert derweil rum
+      %small.reveal ... und fühlt sich allein :(
+
+.slide
+  %header
+    %h1 Und das hat Folgen
+  %section
+    %p
+      Koffein hält ~5-6h vor
+      %br
+      %small (bei Rauchern kürzer; während der Menstruation länger)
+    %p
+      Adenosin sammelt sich an
+      %br
+      Irgendwann kommt der Crash
+    %p
+      Erschöpfung wird nur ausgeblendet
+      %br
+      %span.reveal Und dann mit mehr Koffein übertüncht
+
+.slide
+  %header
+    %h1 Der Körper reagiert
+  %section
+    %p
+      Mehr Rezeptoren für Adenosin
+      %br
+      %small => Toleranz entsteht, Dosis muss erhöht werden
+    %p Toleranz entsteht innerhalb einer Woche
+    %p ... fast unabhängig von der Dosis
+
+.slide
+  %header
+    %h1 Die Folgen
+  %section
+    %p
+      %q When <strong>regular caffeine users</strong> were given caffeine this simply returned them <strong>to&nbsp;their&nbsp;baseline</strong>, and did not enhance their alertness. Non caffeine users saw <strong>no&nbsp;benefit</strong> from taking caffeine.
+      %br
+      %small #{link "http://theness.com/neurologicablog/?p=2023", "http://theness.com/neurologicablog/?p=2023"}
+
+.slide
+  %header
+    %h1 Die Folgen (cont'd)
+  %section
+    %p
+      %q The take home is that regular use of caffeine produces <strong>no benefit</strong> to alertness, energy, or function. Regular caffeine users are simply <strong>staving off caffeine withdrawal</strong> with every dose – using caffeine just to return them to their baseline.
+      %br
+      %small #{link "http://theness.com/neurologicablog/?p=2023", "http://theness.com/neurologicablog/?p=2023"}
+
+.slide
+  %header
+    %h1 Weg davon
+  %section
+    %p Entzug dauert 2-6 Tage
+    %p
+      Entzugserscheinungen werden stärker mit höherer <q>gewohnter</q> Dosis
+      %br
+      %small Kopfschmerzen, Reizbarkeit, Schlafprobleme
+    %p.reveal
+      Danach muss der Tagesrhythmus wieder normalisiert werden
+      %small.reveal (bis zu vier Wochen)
+
+.slide
+  %header
+    %h1 Licht und Schatten
+  %section
+    %p Wir starren in helle Bildschirme
+    %p
+      Wir sind umgeben von hellen LEDs
+      %br
+      %small (vorzugsweise blau und weiß)
+    %p Licht ist ein Signal an unser Gehirn:
+    %p{:align => :center}
+      %q Es ist Tag!
+
+.slide
+  %header
+    %h1 Es werde Unlicht!
+  %section
+    %p Tatsächlich ist nicht immer Tag.
+    %p.reveal #{link "f.lux", "http://www.stereopsis.com/flux/"} to the rescue!
+    %p.reveal
+      =img "caffeine-productivity/flux.png" 
+      #{link "http://www.stereopsis.com/flux/", "http://www.stereopsis.com/flux/"}
+
+.slide
+  %header
+    %h1 Es werde Unlicht! (&hellip;)
+  %section
+    %p
+      F.lux
+      %q makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.
+    %p{:align => :center}
+      =img "caffeine-productivity/flux_settings.png"
+
+.slide
+  %header
+    %h1{:style => 'height:550px;line-height:550px;'}
+      Fragen?
+
+.slide.title-only
+  %header
+    %h1.light{:style => 'margin-top:10px'}
+      Viel Spaß mit
+      %br
+      psychoaktiven Substanzen!
+      %br
+      %br
+      %strong Schlaft gut
+      %br
+      und
+      %br
+      %strong seid produktiv!
+
+.slide.title-only
+  %header
+    %h1
+      %strong Kaffeepause!
+
+.slide
+  %header
+    %h1{:style => 'height: 200px;line-height:250px;'}
+      %strong Danke!
+  %section
+    %p{:align => :center}
+      = img "caffeine-productivity/face_180.png"
+      %br
+      @moeffju
+      %br
+      %small (#{link "follow me on Twitter!", "https://twitter.com/moeffju"})
+  %footer
+    %small (und vielen Dank an #{link "@Hagenburger", "https://twitter.com/Hagenburger"} für das Präsentations-System)
