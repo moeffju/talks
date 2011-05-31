@@ -1,13 +1,14 @@
 $grey: #7f7f7f;
-$green: #7dc322;
-$blue: #6cb8bb;
-$turquoise: #23c36b;
+$blue: #62c917;
+$green: #00d7e5;
+$turquoise: #00d7e5;
 $violet: #6323c3;
-$yellow: #b6c323;
+$yellow: #ffdd00;
 $red: #c35423;
 $pink: #c322bd;
-$text-color: #333333;
-$background-color: #dbe0df;
+
+$text-color: #ffffff;
+$background-color: #d4d4d4;
 $border-color: #666666;
 
 $slide-height: 700px;
@@ -24,3 +25,12 @@ $slide-width: 900px;
 @import "partials/slides";
 @import "partials/presentation-counter";
 @import "partials/figures";
+
+p { color: $text-color; }
+.title header { width: 900px; }
+.playing.reveal { display:none; }
+strong { color: lighten(#62c917, 20%); text-shadow: 0px 0px 10px #62c917; }
+.title-only h1 { color: mix(#62c917, #fff, 10%); }
+.title-only strong { color: #fff; text-shadow: 0px 0px 15px #aaa; }
+footer small { color: #888; }
+footer a {text-decoration:underline;}

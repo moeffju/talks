@@ -250,7 +250,7 @@ var SlideShow = function(slides) {
       function(e) { _t.handleTouchEnd(e); }, false);
   window.addEventListener('popstate', 
       function(e) { _t.go(e.state); }, false);
-  this._update();          
+  this._update();
 };
 
 SlideShow.prototype = {

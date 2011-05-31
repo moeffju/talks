@@ -20,7 +20,7 @@
   left: 50%;
   top: 50%;
   margin-top: -350px;
-  background: image-url("layout/white.png");
+  background: image-url("layout/slide.png");
   @include transition(margin, 0.25s, ease-in-out);
   // No box-shadow because of performance issues in Chrome :(
   // @include box-shadow(rgba(black, .3), 0, 5px, 30px);
@@ -91,7 +91,7 @@ footer {
     color: white;
   }
   footer a {
-    //text-decoration: underline;
+    text-decoration: underline;
   }
 }
 
@@ -109,9 +109,8 @@ footer {
 }
 
 .title {
-  background: image-url("layout/title.png");
-  padding: 350px 20px 0;
-  @include box-sizing(border-box);
+  background: image-url("layout/slide.png");
+  padding: 350px 0px 0;
   header {
     display: table-cell;
     height: 330px;
@@ -130,7 +129,6 @@ footer {
 
 .with-steps {
   &:after {
-    content: "Press “N” to show results";
     opacity: 1;
     .playing & {
       opacity: 0;
@@ -141,6 +139,20 @@ footer {
 .navigation-info {
   @extend .with-steps;
   &:after {
-    content: "Press arrows to navigate";
+    white-space: pre;
   }
+}
+
+#startup-info {
+  position: absolute;
+  overflow: hidden;
+  width: $slide-width;
+  height: $slide-height;
+  text-align: center;
+  left: 10%;
+  top: 50%;
+}
+
+.slide {
+  padding-top: 30px;
 }
